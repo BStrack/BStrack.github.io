@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Brian Strack - Computer Science Principles</title>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-align: right;
+    padding: 1px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #888;
+}
+
+li.dropdown {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 8px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    position: relative;
+    
+}
+
+.dropdown-content a:hover {
+    color: white;
+    background-color: #888}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:1px;
+}
+
+#section {
+    width:1240px;
+    text-align:center;
+    padding:1px;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="header">
+<img src="images/strack_eboard.jpg">
+</div>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="portfolio.html">Portfolio</a></li>
+  <li><a href="about.html">About</a></li>
+  <li class="dropdown"  style = "float:right">
+    <a href="#" class="dropbtn">Links</a>
+    <div class="dropdown-content">
+      <a href="http://www.w3schools.com/" target="_blank">w3schools</a>
+      <a href="http://greenteapress.com/thinkpython2/html/index.html" target="_blank">Think Python</a>
+    </div>
+  </li>
+</ul>
+
+<div id="section">
+<img src="images/comtemporaryHome.jpg" width=90% height=90%>
+</div>
+
+<div id="footer">
+Copyright© Brian Strack
+</div>
+
+</body>
+</html>
